@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Phiri's Whiskful Treats - Enquiry Form</title>
+</head>
+<body>
+
+  <h1>Phiri's Whiskful Treats</h1>
+  <p><strong>Bakery Enquiry Form</strong></p>
+
+  <form action="#" method="post" enctype="multipart/form-data">
+
+    <label for="name">Full Name *</label><br>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label for="email">Email Address *</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="phone">Phone Number *</label><br>
+    <input type="tel" id="phone" name="phone" required><br><br>
+
+    <label for="product-category">Product Category *</label><br>
+    <select id="product-category" name="product-category" required>
+      <option value="">-- Select a category --</option>
+      <option value="cakes">Cakes</option>
+      <option value="cupcakes">Cupcakes</option>
+      <option value="cookies">Cookies</option>
+      <option value="bread">Artisan Bread</option>
+      <option value="desserts">Desserts</option>
+      <option value="catering">Catering</option>
+    </select><br><br>
+
+    <label for="enquiry-type">Type of Enquiry *</label><br>
+    <select id="enquiry-type" name="enquiry-type" required>
+      <option value="">-- Select enquiry type --</option>
+      <option value="custom-order">Custom Order</option>
+      <option value="bulk-order">Bulk/Business Order</option>
+      <option value="event">Event Catering</option>
+      <option value="general">General Question</option>
+    </select><br><br>
+
+    <label for="flavours">Preferred Flavours</label><br>
+    <input type="text" id="flavours" name="flavours" placeholder="e.g. Chocolate, Vanilla"><br><br>
+
+    <label for="dietary">Dietary Requirements</label><br>
+    <select id="dietary" name="dietary">
+      <option value="">-- Select if applicable --</option>
+      <option value="none">None</option>
+      <option value="gluten-free">Gluten-Free</option>
+      <option value="vegan">Vegan</option>
+      <option value="sugar-free">Sugar-Free</option>
+      <option value="nut-free">Nut-Free</option>
+      <option value="halal">Halal</option>
+    </select><br><br>
+
+    <label for="theme">Theme or Design (if any)</label><br>
+    <input type="text" id="theme" name="theme" placeholder="e.g. Wedding, Birthday, Floral"><br><br>
+
+    <label for="quantity">Estimated Quantity Needed</label><br>
+    <input type="text" id="quantity" name="quantity" placeholder="e.g. 2 cakes, 24 cupcakes"><br><br>
+
+    <label for="event-date">Event or Delivery Date</label><br>
+    <input type="date" id="event-date" name="event-date"><br><br>
+
+    <label for="preferred-time">Preferred Time for Pickup/Delivery</label><br>
+    <input type="time" id="preferred-time" name="preferred-time"><br><br>
+
+    <label for="delivery-method">Pickup or Delivery?</label><br>
+    <select id="delivery-method" name="delivery-method">
+      <option value="">-- Select one --</option>
+      <option value="pickup">Pickup</option>
+      <option value="delivery">Delivery</option>
+    </select><br><br>
+
+    <label for="image">Upload a reference image (optional)</label><br>
+    <input type="file" id="image" name="image" accept="image/*"><br><br>
+
+    <label for="message">Additional Details *</label><br>
+    <textarea id="message" name="message" rows="5" cols="40" required placeholder="Share any other details about your request..."></textarea><br><br>
+
+    <input type="submit" value="Submit Enquiry">
+
+  </form>
+
+  <a href="Contact.html">Contact information</a>
+</body>
+</html>
